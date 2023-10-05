@@ -6,12 +6,23 @@ server.use(cors());
 server.use(express.json({ extended: true }))
 
 
+router.post('/sendImage', (req, res) =>{
 
 
+});
+
+router.post('/sendArchive', (req, res) =>{
 
 
+});
 
+router.get('/getImage/:path', (req,res) => {
 
+})
+
+router.get('/getArchive/:path', (req,res) => {
+
+})
 
 
 
