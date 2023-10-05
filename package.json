@@ -1,0 +1,23 @@
+{
+  "name": "marvelcomics111",
+  "version": "1.0.0",
+  "description": "A very cool project about storing stuff",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javaNoobGuy/MarvelComics111.git"
+  },
+  "author": "JuanCabron, igorCantarik, GuiGone, artoddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javaNoobGuy/MarvelComics111/issues"
+  },
+  "homepage": "https://github.com/javaNoobGuy/MarvelComics111#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
