@@ -6,8 +6,11 @@ server.use(cors());
 server.use(express.json({ extended: true }))
 
 
-router.post('/sendImage', (req, res) =>{
+router.post('/sendImage/:id', (req, res) =>{
 
+    let {id} = req.params;
+
+    console.log(req.body);
 
 });
 
@@ -29,6 +32,6 @@ router.get('/getArchive/:path', (req,res) => {
 
 server.use(router);
 
-server.listen(3000, () => {
+server.listen(4000, () => {
     console.log('server rodando!');
 })
